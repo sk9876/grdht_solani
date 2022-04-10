@@ -70,7 +70,7 @@ void upload_temperature()
 
   Serial.println("Temperature: "+temperature);
   Serial.println("Humidity: "+humidity);
-  Serial.println(heat_index);
+  
   Serial.println("--------------------------");
  
   String temperature_data;
